@@ -1,0 +1,34 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.child{
+    text-align: center;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+.child1{
+    background-color: lightblue;
+    border:1px solid black;
+   
+}
+.child2{
+    background-color: lightpink;
+    border:1px solid black;
+}
+.child3{
+    background-color: lightslategray;
+    border:1px solid blue;
+}
+@media only screen and (max-width: 768px) {
+    .child {
+      font-size: 14px;
+      padding:5px;
+      padding-right:10px;
+      line-height: 20px;
+      text-align: left;
+    }
+  }
